@@ -1,5 +1,5 @@
 # Pronerd Jay -> uh-owopy
-class Oops(Exception):
+class Oopsie(Exception):
     """Generic Exception Raised by the user.
 
         Attributes:
@@ -39,7 +39,3 @@ class CustomUwU(Exception):
 
     def __str__(self):
         return f'{self.start}! {self.ObjectName} -> {self.message}'
-
-
-if __name__ == "__main__":
-    raise Oops("postgreSQL")

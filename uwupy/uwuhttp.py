@@ -1,4 +1,4 @@
-from pyowo import CustomUwU
+from uwupy.generics import CustomUwU
 import json
 
 
